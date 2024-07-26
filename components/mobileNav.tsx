@@ -32,8 +32,8 @@ const MobileNav = () => {
   const pathname = usePathname();
 
   return <Sheet>
-    <SheetTrigger className="felx justify-center items-center">
-        <CiMenuFries  className="text-4xl text-accent" />
+    <SheetTrigger className="felx justify-center items-center text-4xl text-accent">
+        <CiMenuFries />
     </SheetTrigger>
     <SheetContent className="flex flex-col items-center gap-20">
         <div className="text-center text-2xl mt-10 ">
