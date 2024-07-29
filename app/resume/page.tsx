@@ -46,7 +46,6 @@ const about = {
     },
   ],
 };
-
 const experience = {
   icon: "",
   title: "My experience",
